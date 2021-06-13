@@ -1,0 +1,26 @@
+<p>customer works!</p>
+
+<!-- <h3>Interpoletion Binding</h3>
+<p>Customer Code: {{custObj.CustomerCode}}</p>
+<p>Customer Name: {{custObj.CustomerName}}</p>
+<p>Customer Amount: {{custObj.CustomerAmount}}</p> -->
+
+<!-- <h3>One Way Data Binding(Component/Model class and display it on view)</h3>
+<p>Customer Code: <input type="text" name="CustomerCode" [value]="custObj.CustomerCode"/></p>
+<p>Customer Name: <input type="text" name="CustomerName" [value]="custObj.CustomerName"/></p>
+<p>Customer Amount: <input type="text" name="CustomerAmount" [value]="custObj.CustomerAmount"/></p> -->
+
+<!-- <h3>One Way Binding(Component/Model -> View)</h3>
+<p>Customer Code: <input type="text" name="CustomerCode" (input)="custObj.CustomerCode=$any($event.target).value" /></p>
+<p>Customer Name: <input type="text" name="CustomerName" (input)="custObj.CustomerName=$any($event.target).value"/></p>
+<p>Customer Amount: <input type="text" name="CustomerAmount" (input)="custObj.CustomerAmount=$any($event.target).value"/></p> -->
+
+<!-- <h3>Two way Data Binding (Model/Component -> view -> Model/Component)</h3>
+<p>Customer Code: <input type="text" name="CustomerCode" [[(ngModel)]="custObj.CustomerCode" /></p>
+<p>Customer Name: <input type="text" name="CustomerName" [[(ngModel)]="custObj.CustomerName" /></p>
+<p>Customer Amount: <input type="text" name="CustomerAmount" [[(ngModel)]="custObj.CustomerAmount"/></p> -->
+
+<h2>Login Here</h2>
+<p>Username: <input type="text" name="username" [(ngModel)]="userObj.username" placeholder="Enter username"/></p>
+<p>Password: <input type="password" name="password" [(ngModel)]="userObj.password" placeholder="Enter password"/></p>
+<p> <input type="button" value="Login" (click)="login()" /></p>

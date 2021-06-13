@@ -1,0 +1,31 @@
+
+<!-- <p>{{message}}</p>
+<h1>User status</h1>
+<div *ngIf="isActive">
+ <p> User Name: {{ userObj.name }} = User Age: {{userObj.age}}</p>
+</div>
+
+<div *ngIf="!isActive">
+    <p>User is not Active.</p>
+</div>
+
+<h2>List of Projects</h2>
+<ul *ngFor="let projects of projects">
+    <li>{{projects}}</li>
+</ul> -->
+<table border="1" cellpadding="10" cellspacing="0">
+    <thead>
+        <tr>
+            <th>S.No</th>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let user of UserList, let i = index">
+            <td>{{i +1}}</td>
+            <td>{{user.name}}</td>
+            <td>{{user.age}}</td>
+        </tr>
+    </tbody>
+</table>
