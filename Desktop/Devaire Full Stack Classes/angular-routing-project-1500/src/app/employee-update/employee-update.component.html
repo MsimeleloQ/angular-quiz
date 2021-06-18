@@ -1,0 +1,20 @@
+
+<h2>Employee Update</h2>
+
+<form>
+    <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-control" name="name" id="name" [(ngModel)]="employee.name"/>
+    </div>
+    <div class="mb-3">
+            <label for="Email" class="form-label">Email</label>
+            <input type="text" class="form-control" name="Email" id="Email" [(ngModel)]="employee.email"/>
+        </div>
+     <div class="mb-3">
+                <label for="salary" class="form-label">Salary</label>
+                <input type="number" class="form-control" name="salary" id="salary" [(ngModel)]="employee.salary"/>
+        </div>
+       
+    <button type="submit" (click)="updateEmployee()" class="btn btn-primary">Submit</button> |
+    
+</form>
