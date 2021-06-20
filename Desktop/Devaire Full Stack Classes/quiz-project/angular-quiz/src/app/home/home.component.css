@@ -1,0 +1,19 @@
+section{
+    background-color: #f0ffff;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.wrapper{
+    margin: 0 auto;
+    width: 1000px;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="row">
+        <div >
+            <div *ngIf="currentQuiz < 10">
+                 <p class="text-center"> Question {{ currentQuiz +1}} of  Question {{quizzes.length}}</p>
+                <h2>{{ quizzes[currentQuiz].question }}</h2>
+
+                <ul class="list-group" *ngFor='let quiz of quizzes[currentQuiz].answer'>
+                    <label>
+                        <li class="list-group-item" appBackground [correctAnswer]= "quiz.correct">
+                         <input type="radio" name="options" (change)="onAnswer(quiz.correct)" [disabled]="answerSelected">
+                        {{ quiz.option }}</li>
+                    </label>
+                </ul>
+            </div> <br />
+           <div *ngIf="currentQuiz > 7">
+            <button class="btn btn-success btn-block" (click)="viewResults()">View Results</button>
+            <div *ngIf="result">
+                You Got: {{ correctAnswers }} |<br> Wrong Answerss: {{ incorrectAnswers }}
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+

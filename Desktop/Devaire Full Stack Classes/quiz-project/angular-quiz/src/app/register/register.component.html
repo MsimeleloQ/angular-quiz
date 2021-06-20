@@ -1,0 +1,24 @@
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="col-md-3">&nbsp;</div>
+        <form>
+            <div class="mb-3">
+                <label for="username" class="form-label">username</label>
+                <input type="text" class="form-control" name="username" id="username" [(ngModel)]="user.username"/>
+            </div>
+            <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" name="email" id="password" [(ngModel)]="user.email"/>
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" name="password" id="password" [(ngModel)]="user.password"/>
+                </div>
+               
+            <a type="submit" class="btn btn-secondary" (click)="register()">Login</a> |
+        </form>
+    </div>
+    <div class="col-md-3">&nbsp;</div>
+</div>
+
