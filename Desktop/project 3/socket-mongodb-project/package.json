@@ -1,0 +1,17 @@
+{
+  "name": "socket-mongodb-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.13.4",
+    "socket.io": "^4.1.3"
+  }
+}
