@@ -1,0 +1,86 @@
+{
+  "users": [
+    {
+      "id": 1001,
+      "name": "king Nasir",
+      "email": "king@gmail.com",
+      "username": "King",
+      "password": "123456"
+    },
+    {
+      "id": 1002,
+      "name": "Mafisa",
+      "email": "fiso@gmail.com",
+      "username": "Magula",
+      "password": "2468"
+    },
+    {
+      "id": 1003,
+      "name": "Mrekza",
+      "email": "rekza@gmail.com",
+      "type": "Seller",
+      "username": "Rekza",
+      "password": "136923"
+    },
+    {
+      "id": 1004,
+      "name": "Olerato",
+      "email": "ole@gmail.com",
+      "type": "Admin",
+      "username": "ole123",
+      "password": "ole1234"
+    },
+    {
+      "id": 1005,
+      "name": "M QEZU",
+      "email": "msimeleloqezu84@gmail.com",
+      "type": "Admin",
+      "username": "Boogie_m2",
+      "password": "1234567890"
+    }
+  ],
+  "products": [
+    {
+      "id": 5001,
+      "name": "Product One",
+      "price": 10000,
+      "quantity": 2,
+      "image": "https://d3nn873nee648n.cloudfront.net/900x600/19086/220-SM895210.jpg"
+    },
+    {
+      "id": 5002,
+      "name": "Product Two",
+      "price": 22000,
+      "quantity": 5,
+      "image": "https://d3nn873nee648n.cloudfront.net/900x600/19086/220-SM895210.jpg"
+    },
+    {
+      "id": 5003,
+      "name": "Product Three",
+      "price": 15000,
+      "quantity": 6,
+      "image": "https://d3nn873nee648n.cloudfront.net/900x600/19086/220-SM895210.jpg"
+    },
+    {
+      "id": 5004,
+      "name": "Product One",
+      "price": 10000,
+      "quantity": 2,
+      "image": "https://d3nn873nee648n.cloudfront.net/900x600/19086/220-SM895210.jpg"
+    },
+    {
+      "id": 5005,
+      "name": "Product Two",
+      "price": 22000,
+      "quantity": 5,
+      "image": "https://d3nn873nee648n.cloudfront.net/900x600/19086/220-SM895210.jpg"
+    },
+    {
+      "id": 5006,
+      "name": "Product Three",
+      "price": 15000,
+      "quantity": 6,
+      "image": "https://d3nn873nee648n.cloudfront.net/900x600/19086/220-SM895210.jpg"
+    }
+  ]
+}
